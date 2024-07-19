@@ -1,0 +1,59 @@
+/* App2.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f9f5f5;
+  color: rgb(23, 22, 22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.sidebar a:hover {
+  background-color: #e7eced;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.link-text {
+  font-size: 16px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  /*overflow-y: auto;*/
+}

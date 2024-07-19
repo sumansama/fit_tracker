@@ -1,0 +1,95 @@
+.daily-challenge {
+    width: 10cm;
+    height: 10cm;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #3d1dda 0%, #2193b0 100%);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ebdfdf;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .challenge-title {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .challenge-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .complete-button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .upcoming-challenges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15cm; /* Adjust this value to place it appropriately on your page */
+    text-align: center;
+  }
+  
+  .upcoming-challenges h5 {
+    width: 100%;
+    text-align: center;
+    color: #ff4081; /* Pink color for the title */
+  }
+  
+  .day-challenge {
+    width: 10cm;
+    height: 10cm;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .day-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #161515;
+  }
+  
+  /* Different colors for each day */
+  .day-challenge:nth-child(1) {
+    background-color: #ff7f7f;
+  }
+  
+  .day-challenge:nth-child(2) {
+    background-color: #ffbf7f;
+  }
+  
+  .day-challenge:nth-child(3) {
+    background-color: #ffff7f;
+  }
+  
+  .day-challenge:nth-child(4) {
+    background-color: #7fff7f;
+  }
+  
+  .day-challenge:nth-child(5) {
+    background-color: #7fffff;
+  }
+  
+  .day-challenge:nth-child(6) {
+    background-color: #8282f7;
+  }
+  
+  .challenge-item:not(:last-child) {
+    border-bottom: 1px solid #a30f0f;
+  }
+  
